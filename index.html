@@ -16,13 +16,27 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="container bg-light">
+    <div class="container bg-light mt-3">
         <h1 class = "py-5 text-center">Trivia Quiz</h1>
         <div id = "questions" >
 
         </div>
     </div>    
 
+    <div class="timer">
+        <p class="countdown lead">
+
+        </p>
+    </div>
+
+    <div class="screen">
+        <div class="results">
+            <h2>Time is up</h2>
+            <p id="correct" class = "answerText lead">Correct Answers: <span class = "lead"></span> </p>
+            <p id="incorrect" class = "answerText lead">Incrrect Answers: <span class = "lead"></span> </p>
+            <p id="unanswered" class = "answerText lead">Unanswered: <span class = "lead"></span> </p>
+        </div>
+    </div>
 
     <script src="./js/data.js"></script>
     <script src="./js/logic.js"></script>
