@@ -1,0 +1,21 @@
+body {
+    background-image: url("https://www.marvin.com/images/content/prodMaterials-wood-integrity.jpg");
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+.lead {
+    font-weight: 400;
+}
+
+input {
+    margin-right : 10px;
+}
+
+.txtred {
+    color: rgb(77, 4, 4);
+    font-weight: bold;
+    font-style: italic;
+}
